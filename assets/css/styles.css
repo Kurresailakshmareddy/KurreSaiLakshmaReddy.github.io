@@ -388,7 +388,7 @@ body.dark-theme {
     text-align: center;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    transition: top .4s;
+    transition: top 0.4s;
   }
 }
 
@@ -439,7 +439,7 @@ body.dark-theme {
   color: var(--text-color-light);
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
-  transition: color .3s;
+  transition: color 0.3s;
 
 }
 
@@ -1347,7 +1347,7 @@ body.dark-theme {
   .nav__list {
     display: flex;
     flex-direction: column;
-    row-gap: 2.5rem;
+    row-gap: 1rem;
   }
 
   .nav__link {
@@ -1491,7 +1491,7 @@ body.dark-theme {
   .nav__list {
     display: flex;
     flex-direction: column;
-    row-gap: 2.5rem;
+    row-gap: 1.5rem;
   }
 
   .nav__link {
