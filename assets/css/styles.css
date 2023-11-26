@@ -1438,6 +1438,10 @@ body.dark-theme {
   .button__ghost {
     margin: 10px 50px;
   }
+  .projects__button{
+    margin:0;
+
+  }
 
   .contact__data {
     width: 100%;
