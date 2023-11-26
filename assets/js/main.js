@@ -165,8 +165,8 @@ var typed = new Typed (".auto-type", {
 /*===============loader Type animation ===========================*/
 var typed = new Typed (".autotype", {
     strings:["I am a Web Developer", "Always aspire to think beyond"],
-    typeSpeed:200,
-    backSpeed:200,
+    typeSpeed:80,
+    backSpeed:80,
     loop:true
 })
 
