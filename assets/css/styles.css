@@ -912,9 +912,10 @@ body.dark-theme {
 
 .projects__button {
   position: absolute;
-  right: 1rem;
-  bottom: -0.5rem;
+  right: -2rem;
+  bottom: -1.5rem;
   padding: 0.5rem;
+  border: 2px solid var(--body-color);
 }
 
 .projects__content {
@@ -1438,11 +1439,7 @@ body.dark-theme {
   .button__ghost {
     margin: 10px 50px;
   }
-  .projects__button{
-    margin:0;
-
-  }
-
+ 
   .contact__data {
     width: 100%;
   }
