@@ -246,7 +246,7 @@ body.dark-theme {
 
 /*-----------loader tester------------*/
 .wrapper {
-  padding: 25px;
+  padding: 10px 25px;
   display: none;
 }
 
@@ -335,7 +335,7 @@ body.dark-theme {
   position: relative;
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -1319,13 +1319,13 @@ body.dark-theme {
     display: block;
     font-size: var(--smaller-font-size);
     font-weight: var(--font-semi-bold);
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .nav__name {
     position: relative;
     width: max-content;
-    margin: 0 auto 3rem;
+    margin: 0 auto 1.5rem;
     font-size: 20px;
   }
 
@@ -1463,13 +1463,13 @@ body.dark-theme {
     display: block;
     font-size: var(--smaller-font-size);
     font-weight: var(--font-semi-bold);
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .nav__name {
     position: relative;
     width: max-content;
-    margin: 0 auto 3rem;
+    margin: 0 auto 1.5rem;
     font-size: 20px;
   }
 
