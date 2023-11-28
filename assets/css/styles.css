@@ -245,7 +245,7 @@ body.dark-theme {
 }
 
 /*-----------loader tester------------*/
-/* .wrapper {
+.wrapper {
   padding: 10px 25px;
   display: none;
 }
@@ -264,11 +264,11 @@ body.dark-theme {
   height: 32px;
   margin: 10px;
   background-color: hsla(200, 98%, 50%, 0.441);
-  /* border: 2px solid black; 
+  /* border: 2px solid black; */
   display: inline-block;
   animation: fade ease-in-out 1s infinite;
   opacity: 0;
-  /* text-align: center;
+  /* text-align: center;*/
   color: white;
 }
 
@@ -316,7 +316,7 @@ body.dark-theme {
   .loader h1 {
     font-size: 15px;
   }
-} */
+} 
 
 
 /*=============== HEADER & NAV ===============*/
