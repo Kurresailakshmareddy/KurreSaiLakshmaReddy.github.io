@@ -151,7 +151,7 @@ $(function () {
 
         //hide after 2.8 seconds when window load 
         setTimeout(function () {
-            $(".one").hide();
+            $(".one").show();
         }, 3000);
 
         // after showing second span 
