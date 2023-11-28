@@ -259,7 +259,7 @@ body.dark-theme {
   align-items: center;
 }
 
-.loader .one {
+.one {
   width: 32px;
   height: 32px;
   margin: 10px;
@@ -278,7 +278,7 @@ body.dark-theme {
   }
 }
 
-.loader .two {
+.two {
   position: absolute;
   width: 25px;
   height: 25px;
@@ -316,7 +316,7 @@ body.dark-theme {
   .loader h1 {
     font-size: 15px;
   }
-} 
+}
 
 /*=============== HEADER & NAV ===============*/
 .header {
@@ -1007,7 +1007,8 @@ body.dark-theme {
   background-color: var(--white-color);
 }
 
-.projects__description, .projects__feedback{
+.projects__description,
+.projects__feedback {
   text-align: justify;
 }
 
@@ -1436,7 +1437,7 @@ body.dark-theme {
   .button__ghost {
     margin: 10px 50px;
   }
- 
+
   .contact__data {
     width: 100%;
   }
