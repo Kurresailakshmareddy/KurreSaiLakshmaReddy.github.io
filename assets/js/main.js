@@ -156,7 +156,7 @@ $(function () {
 
         // after showing second span 
         setTimeout(function () {
-            $(".two").show();
+            $(".two").hide();
         }, 3000);
 
         //after the hide loader and wrapper class is showing
