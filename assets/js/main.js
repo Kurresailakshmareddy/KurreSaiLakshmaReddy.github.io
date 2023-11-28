@@ -131,28 +131,28 @@ themeButton.addEventListener('click', () => {
 
 /*===============loader animation ===========================*/
 
-$(function () {
+// $(function () {
 
-    $(window).on("load", function () {
+//     $(window).on("load", function () {
 
-        //hide after 2.8 seconds when window load 
-        setTimeout(function () {
-            $(".one").hide();
-        }, 3000);
+//         //hide after 2.8 seconds when window load 
+//         setTimeout(function () {
+//             $(".one").hide();
+//         }, 3000);
 
-        // after showing second span 
-        setTimeout(function () {
-            $(".two").show();
-        }, 3000);
+//         // after showing second span 
+//         setTimeout(function () {
+//             $(".two").show();
+//         }, 3000);
 
-        //after the hide loader and wrapper class is showing
-        setTimeout(function () {
-            $(".loader").fadeOut();
-            $(".wrapper").show();
-        }, 6150); //2800 +2800 +50 extra = 5650
-    });
+//         //after the hide loader and wrapper class is showing
+//         setTimeout(function () {
+//             $(".loader").fadeOut();
+//             $(".wrapper").show();
+//         }, 6150); //2800 +2800 +50 extra = 5650
+//     });
 
-});
+// });
 
 /*===============loader Type animation ===========================*/
 var typed = new Typed (".auto-type", {
@@ -178,17 +178,17 @@ var typed = new Typed (".autotype", {
 // })
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-// const sr = ScrollReveal({
-//     origin: 'top',
-//     distance: '60px',
-//     duration: 3000,
-//     delay: 400
-//     //reset: true // Animations repeat
-// })
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 3000,
+    delay: 400
+    //reset: true // Animations repeat
+})
 
-// sr.reveal(`.home__perfil, .about__image, .contact__mail`, { origin: 'right' })
-// sr.reveal(`.home__name, .home__info, 
-//             .about__container .section__title-1, .about__info, 
-//             .contact__social, .contact__data`, { origin: 'left' })
-// sr.reveal(`.skills__card, .projects__card`, { interval: 100 })
+sr.reveal(`.home__perfil, .about__image, .contact__mail`, { origin: 'right' })
+sr.reveal(`.home__name, .home__info, 
+            .about__container .section__title-1, .about__info, 
+            .contact__social, .contact__data`, { origin: 'left' })
+sr.reveal(`.skills__card, .projects__card`, { interval: 100 })
 
