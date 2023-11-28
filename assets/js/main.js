@@ -169,19 +169,19 @@ $(function () {
 });
 
 /*===============loader Type animation ===========================*/
-var typed = new Typed (".auto-type", {
-    strings:["&lt;h4&gt; Hello World 🌍...!&lt;/h4&gt;"],
-    typeSpeed:40,
-    backSpeed:40,
-    loop:true
+var typed = new Typed(".auto-type", {
+    strings: ["&lt;h4&gt; Hello World 🌍...!&lt;/h4&gt;"],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
 })
 
 /*===============loader Type animation ===========================*/
-var typed = new Typed (".autotype", {
-    strings:["I am a Web Developer", "Always aspire to think beyond"],
-    typeSpeed:80,
-    backSpeed:80,
-    loop:true
+var typed = new Typed(".autotype", {
+    strings: ["I am a Web Developer", "Always aspire to think beyond"],
+    typeSpeed: 80,
+    backSpeed: 80,
+    loop: true
 })
 
 // var typed = new Typed (".quote", {
