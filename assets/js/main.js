@@ -152,25 +152,25 @@ $(function () {
         //hide after 2.8 seconds when window load 
         setTimeout(function () {
             $(".one").show();
-        }, 1800);
+        }, 2800);
 
         // after showing second span 
         setTimeout(function () {
             $(".two").hide();
-        }, 1800);
+        }, 2800);
 
         //after the hide loader and wrapper class is showing
         setTimeout(function () {
             $(".loader").fadeOut();
             $(".wrapper").show();
-        }, 2600); //2800 +2800 +50 extra = 5650
+        }, 5600); //2800 +2800 +50 extra = 5650
     });
 
 });
 
 /*===============loader Type animation ===========================*/
 var typed = new Typed (".auto-type", {
-    strings:["&lt;h4&gt; Hello World 🌍...!&lt;/h4&gt;"],
+    strings:["&lt;h4&gt; Hello World 🌍...!&lt;/h4&gt;", "&lt;h4&gt; Welcome to my portfolio ....!😊&lt;/h4&gt;"],
     typeSpeed:40,
     backSpeed:40,
     loop:true
