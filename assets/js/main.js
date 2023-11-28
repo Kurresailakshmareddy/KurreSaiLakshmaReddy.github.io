@@ -152,18 +152,18 @@ $(function () {
         //hide after 2.8 seconds when window load 
         setTimeout(function () {
             $(".one").show();
-        }, 2800);
+        }, 1800);
 
         // after showing second span 
         setTimeout(function () {
             $(".two").hide();
-        }, 2800);
+        }, 1800);
 
         //after the hide loader and wrapper class is showing
         setTimeout(function () {
             $(".loader").fadeOut();
             $(".wrapper").show();
-        }, 5600); //2800 +2800 +50 extra = 5650
+        }, 2600); //2800 +2800 +50 extra = 5650
     });
 
 });
