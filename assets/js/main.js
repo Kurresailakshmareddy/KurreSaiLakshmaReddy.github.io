@@ -169,7 +169,7 @@ $(function () {
 });
 
 /*===============loader Type animation ===========================*/
-let typed = new Typed(".auto-type", {
+var typed = new Typed(".auto-type", {
     strings: ["&lt;h4&gt; Loading.... &lt;/h4&gt;", "&lt;h4&gt; Hello World 🌍...!&lt;/h4&gt;"],
     typeSpeed: 40,
     backSpeed: 40,
@@ -177,7 +177,7 @@ let typed = new Typed(".auto-type", {
 })
 
 /*===============loader Type animation ===========================*/
-let type = new Type (".autotype", {
+var typed = new Typed (".autotype", {
     strings: ["I am a Web Developer", "Always aspire to think beyond"],
     typeSpeed: 80,
     backSpeed: 80,
