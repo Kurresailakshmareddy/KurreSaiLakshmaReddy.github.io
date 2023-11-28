@@ -170,9 +170,9 @@ $(function () {
 
 /*===============loader Type animation ===========================*/
 var typed = new Typed(".auto-type", {
-    strings: ["&lt;h4&gt; Hello World 🌍...!&lt;/h4&gt;"],
-    typeSpeed: 20,
-    backSpeed: 20,
+    strings: ["&lt;h4&gt;Loding....!😊&lt;/h4&gt;","&lt;h4&gt; Hello World 🌍...!&lt;/h4&gt;"],
+    typeSpeed: 40,
+    backSpeed: 40,
     loop: true
 })
 
