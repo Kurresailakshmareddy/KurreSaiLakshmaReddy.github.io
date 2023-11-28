@@ -246,7 +246,7 @@ body.dark-theme {
 
 /*-----------loader tester------------*/
 .wrapper {
-  padding: 10px 25px;
+  padding: 25px;
   display: none;
 }
 
@@ -259,17 +259,17 @@ body.dark-theme {
   align-items: center;
 }
 
-.one {
+.loader .one {
   width: 32px;
   height: 32px;
   margin: 10px;
   background-color: hsla(200, 98%, 50%, 0.441);
   /* border: 2px solid black; */
   display: inline-block;
-  animation: fade ease-in-out 1s infinite;
+  animation: fade ease-in-out 1s;
   opacity: 0;
-  /* text-align: center;*/
-  color: white;
+  /* text-align: center;
+  color: white;*/
 }
 
 @keyframes fade {
@@ -285,7 +285,7 @@ body.dark-theme {
   background-color: hsla(210, 4%, 80%, 0.247);
   border: 2px solid hsla(200, 98%, 50%, 0.651);
   display: inline-block;
-  animation: grow ease-in-out 5s infinite;
+  animation: grow ease-in-out 5s;
   display: none;
 }
 
